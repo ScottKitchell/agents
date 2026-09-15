@@ -1,6 +1,8 @@
 ---
 name: human-writing
 description: Improve prose intended for people so it is clear, succinct, purposeful, and natural. Use when drafting or revising messages, emails, documents, tickets, PRs, reviews, summaries, product copy, or other human-facing writing. Do not use for code-only work, analysis without a writing deliverable, or verbatim transcription.
+metadata:
+  author: ScottKitchell
 ---
 
 # Human Writing
