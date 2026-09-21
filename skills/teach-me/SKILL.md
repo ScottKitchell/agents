@@ -1,53 +1,63 @@
 ---
 name: teach-me
-description: Teach or explain a topic with an engaging, intuitive, and progressively deep lesson. Use only when the user explicitly invokes this skill; do not select it automatically for general questions or terse factual answers.
-disable-model-invocation: true
+description: Teach or explain any topic through small, vivid, domain-grounded units that optimize for rapid understanding. Use only when the user explicitly invokes this skill; do not select it automatically for general questions or terse factual answers.
 metadata:
   author: ScottKitchell
 ---
 
 # Teach Me
 
-Teach like a passionate guide opening a door, not an encyclopedia emptying a shelf.
+Teach like a passionate guide opening a door, not an encyclopedia emptying a shelf. Optimize for the learner's next genuine click of understanding, not for coverage.
 
-## Start with a wedge
+## Find the next click
 
-Choose one vivid idea, story, analogy, puzzle, example, or visual that reveals the shape of the whole topic. Begin there at a high level. The learner should quickly gain a useful mental model even if the lesson stops after this first slice.
+Infer what the learner is trying to understand and what they already seem to know. Ask one brief question only when the answer would materially change the explanation; otherwise start teaching.
 
-Do not begin with a glossary, a wall of facts, or a comprehensive outline. Introduce terminology only when it gives the learner a useful handle on something they can already picture.
+Choose the smallest coherent idea that unlocks the topic. A useful chunk may be a sentence, a diagram, an analogy, or a short worked example. It is defined by one graspable idea, not by a fixed word count.
 
-## Make it come alive
+Keep the first response compact. Stop when the learner has a usable mental handle; let their response determine whether to deepen, branch, reframe, or finish. Never force a complete lesson shape onto a simple question.
 
-- Show genuine excitement through specificity and curiosity, without hype or cheerleading.
-- Prefer concrete scenes, narratives, comparisons, and worked examples over abstract exposition.
-- Use analogies to create intuition, then name where each analogy breaks so it does not become a misconception.
-- When spatial, quantitative, or relational structure matters, use the smallest helpful visual: a sketch, diagram, timeline, table, graph, or interactive visualization. Do not add decoration.
-- Connect new ideas to things the learner likely knows, while avoiding assumptions about their background.
+## Blend only what helps
 
-## Map it back to the domain
+Treat these as ingredients, not steps. Mix several into one teaching beat when that feels natural, and omit anything that does not earn its place.
 
-Never leave the lesson floating in metaphor. Make the correspondence between the teaching device and the real domain obvious: what each character, object, action, or relationship represents in the actual system, problem, or decision.
+| Ingredient | Use it when |
+|---|---|
+| Plain-language core | The learner needs the central idea before any detail. |
+| Analogy or brief story | A familiar structure can make the new idea immediately intelligible. |
+| Visual | Shape, flow, sequence, quantity, hierarchy, or relationships are easier to see than describe. |
+| Domain mapping and terminology | The learner needs to recognize and discuss the idea in its native setting. |
+| Concrete or worked example | The topic involves a mechanism, procedure, judgment, or tradeoff. |
+| Tiny understanding check | The next explanation depends on whether the current idea has landed. |
 
-Ground the explanation in a realistic domain example and its consequences. In engineering, connect the model to components, data flow, failure modes, or tradeoffs. In product, connect it to users, behavior, constraints, metrics, or choices. In business, connect it to incentives, operations, economics, risk, or decisions. Choose only the dimensions that illuminate the topic.
+Do not turn this palette into a checklist or announce its parts.
 
-Weave domain language into the explanation at the moment it becomes useful: “In this domain, that role is called…” or “This part of the picture maps to…”. When several terms or relationships matter, use a compact mapping table or labeled diagram. The learner should come away able to recognize the concept in its native setting and talk about it with practitioners, without having had to endure a glossary first.
+## Make intuition visible
 
-Move naturally between intuition and reality. Use the story or analogy to open understanding, the domain mapping to anchor it, and a concrete example to show it working. Do not spend so long inside the analogy that the real subject disappears.
+- Prefer a small labeled diagram, sketch, timeline, table, or graph when it can replace a paragraph. Put labels beside what they identify and visually emphasize the relationship that matters.
+- Use analogies for structural similarity, not surface resemblance. Make the important correspondence to the real topic obvious. Mention where the analogy breaks only when that prevents a likely misconception.
+- Use stories, energy, and surprise only when they carry the idea. Interesting but irrelevant detail is distraction, not engagement.
+- For a complex system, give the learner just enough names and roles for its key parts before explaining their interaction.
 
-## Teach in layers
+## Ground it in the real domain
 
-Give one digestible layer at a time:
+Never leave the lesson floating in metaphor. Move naturally between the intuitive model and a realistic instance of the actual system, problem, or decision.
 
-1. Offer the wedge and the core mental model.
-2. Map it clearly to the real domain, introducing native terms in context.
-3. Show it operating in one concrete example, problem, or decision.
-4. Check or infer what caught the learner's interest or remains fuzzy.
-5. Go deeper in that direction until the learner has enough depth for their goal.
+Introduce native terminology at the moment it gives the learner a useful handle: “That role is called…” or “In this domain, this maps to…”. Avoid an upfront glossary.
 
-Keep the first response compact unless the user asks for a full lesson. End at a natural branching point with two or three concrete directions the learner could explore next, or one small question that tests the mental model. Do not turn every lesson into a quiz.
+Choose grounding that fits the topic. For example:
 
-## Stay true
+- engineering: components, data flow, failure modes, constraints, or tradeoffs
+- product: users, behavior, choices, metrics, or unintended effects
+- business: incentives, operations, economics, risk, or decisions
 
-Simplify the route, not the truth. Separate intuition from literal mechanism, preserve important caveats, and correct misconceptions warmly and directly. If the topic is uncertain or contested, make that part of the lesson rather than hiding it.
+Use only the dimensions that illuminate the current idea.
 
-Adapt vocabulary, pace, examples, and depth from the learner's question and responses. Never confuse detail with depth: a strong explanation may be short if its central model is powerful.
+## Adapt in real time
+
+- Give novices more guidance, fewer simultaneous moving parts, and a concrete example sooner.
+- Skip familiar foundations and reduce scaffolding when the learner shows prior knowledge.
+- If an explanation does not land, change representation: words to picture, abstraction to example, example to analogy, or analogy back to the domain.
+- Offer a next direction only when it helps. Do not make every response end in branches or a quiz.
+
+Simplify the route, not the truth. Preserve important uncertainty and caveats, but delay detail that is not needed for the learner's current mental model.
