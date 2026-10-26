@@ -19,3 +19,9 @@
 - Keep the portable resource canonical and make platform-specific files thin adapters.
 - When agent-specific configuration is necessary, support Codex, Cursor, and Claude at minimum.
 - Document the equivalent behavior for each supported agent and why the adapters are needed.
+
+## Creating and Installing Skills
+
+- Create new skills in this repository under `skills/<skill-name>/`, with `SKILL.md` as the portable entrypoint. Keep the repository copy canonical.
+- Install skills globally by default in `~/.agents/skills/<skill-name>/`, rather than a vendor-specific location. Prefer a symlink to the repository's skill directory so edits stay in sync.
+- When moving an existing skill here, preserve its content and remove the superseded vendor-specific installation after verifying the shared installation. Resolve any differing existing copies before replacing them.
