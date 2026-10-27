@@ -24,4 +24,10 @@
 
 - Create new skills in this repository under `skills/<skill-name>/`, with `SKILL.md` as the portable entrypoint. Keep the repository copy canonical.
 - Install skills globally by default in `~/.agents/skills/<skill-name>/`, rather than a vendor-specific location. Prefer a symlink to the repository's skill directory so edits stay in sync.
+- Do not also link skills into vendor directories. Codex, Cursor, and Gemini read `~/.agents/skills` directly, and `~/.claude/skills` is a symlink to it.
 - When moving an existing skill here, preserve its content and remove the superseded vendor-specific installation after verifying the shared installation. Resolve any differing existing copies before replacing them.
+
+## Global Instructions
+
+- `AGENTS.global.md` is the canonical copy of the user's global agent instructions.
+- Install it by symlinking each agent's global instructions file to it: `~/.codex/AGENTS.md`, `~/.claude/CLAUDE.md`, and `~/.gemini/GEMINI.md`. Cursor keeps global rules in its settings, so copy changes there by hand.
