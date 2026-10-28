@@ -4,6 +4,7 @@
 
 - This repository contains reusable, agent-facing resources such as skills and instruction files.
 - Keep every resource agent- and harness-agnostic by default.
+- Update `README.md` in the same change whenever you add, remove, rename, or change the purpose of a resource, so it never goes stale.
 
 ## Portability
 
@@ -23,8 +24,8 @@
 ## Creating and Installing Skills
 
 - Create new skills in this repository under `skills/<skill-name>/`, with `SKILL.md` as the portable entrypoint. Keep the repository copy canonical.
-- Install skills globally by default in `~/.agents/skills/<skill-name>/`, rather than a vendor-specific location. Prefer a symlink to the repository's skill directory so edits stay in sync.
-- Do not also link skills into vendor directories. Codex, Cursor, and Gemini read `~/.agents/skills` directly, and `~/.claude/skills` is a symlink to it.
+- Install skills globally with the `skills` CLI: `npx skills add ScottKitchell/agents -g --skill <skill-name>`. Let the CLI place skills in each agent's directory instead of linking them by hand.
+- The CLI installs from GitHub, so push skill changes first, then run `npx skills update` to apply them.
 - When moving an existing skill here, preserve its content and remove the superseded vendor-specific installation after verifying the shared installation. Resolve any differing existing copies before replacing them.
 
 ## Global Instructions
