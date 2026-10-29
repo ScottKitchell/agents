@@ -16,6 +16,9 @@ Everything here is agent-agnostic. It should work in Claude Code, Codex, Cursor,
 | [human-writing](skills/human-writing/SKILL.md) | Makes human-facing writing clear, concise, and natural, and strips out AI tells. |
 | [rapid-fire](skills/rapid-fire/SKILL.md) | Turns feedback, reviews, or notes into a short queue of decisions that need your judgement, each with a recommendation. |
 | [teach-me](skills/teach-me/SKILL.md) | Teaches a topic through small, concrete units built for fast understanding. Only runs when you ask for it. |
+| [what-would-scott-do](skills/what-would-scott-do/SKILL.md) | Pressure-tests a plan, design, PR, or message with the questions I habitually ask (user goals, simplify, focus, concepts, automation, verification), checking what I've already said on the topic first. Only runs when you ask for it. |
+
+`what-would-scott-do` is manual-only. Its description says so for any agent, but a description is only a hint, so it also carries thin adapters that switch off automatic selection: `disable-model-invocation: true` in the `SKILL.md` frontmatter (Claude Code and Cursor) and `agents/openai.yaml` with `allow_implicit_invocation: false` (Codex).
 
 ## Other resources
 
