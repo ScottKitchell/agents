@@ -15,6 +15,7 @@ Everything here is agent-agnostic. It should work in Claude Code, Codex, Cursor,
 | [expert-opinion](skills/expert-opinion/SKILL.md) | Researches how practitioners handle a trade-off, picks an approach, and keeps going instead of handing every judgement call back to you. |
 | [human-writing](skills/human-writing/SKILL.md) | Makes human-facing writing clear, concise, and natural, and strips out AI tells. |
 | [rapid-fire](skills/rapid-fire/SKILL.md) | Turns feedback, reviews, or notes into a short queue of decisions that need your judgement, each with a recommendation. |
+| [strategy](skills/strategy/SKILL.md) | Develops company, team, or individual strategy collaboratively through current and desired states, proactive research, alternative pathways, and conditional choices, refining until ready to delegate. |
 | [teach-me](skills/teach-me/SKILL.md) | Teaches a topic through small, concrete units built for fast understanding. Only runs when you ask for it. |
 | [what-would-scott-do](skills/what-would-scott-do/SKILL.md) | Pressure-tests a plan, design, PR, or message with the questions I habitually ask (user goals, simplify, focus, concepts, automation, verification), checking what I've already said on the topic first. Only runs when you ask for it. |
 
