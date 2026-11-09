@@ -24,6 +24,8 @@
 ## Creating and Installing Skills
 
 - Create new skills in this repository under `skills/<skill-name>/`, with `SKILL.md` as the portable entrypoint. Keep the repository copy canonical.
+- Use the `skill-creator` skill before creating or editing a skill.
+- Write skill descriptions around when the skill should trigger and what it gives the agent, not the process it follows. Keep the process in the skill body.
 - Install skills globally with the `skills` CLI: `npx skills add ScottKitchell/agents -g --skill <skill-name>`. Let the CLI place skills in each agent's directory instead of linking them by hand.
 - The CLI installs from GitHub, so push skill changes first, then run `npx skills update` to apply them.
 - When moving an existing skill here, preserve its content and remove the superseded vendor-specific installation after verifying the shared installation. Resolve any differing existing copies before replacing them.

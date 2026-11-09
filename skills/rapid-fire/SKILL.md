@@ -1,6 +1,6 @@
 ---
 name: rapid-fire
-description: Distil supplied or requested sources into a focused inbox of decisions needing human judgement, with enough context and a recommendation for each. Use when asked to rapid-fire feedback, reviews, notes, or other context, or explicitly to turn sources into a decision queue. Exclude straightforward fixes and clear no-action items.
+description: Turn feedback, reviews, notes, or other sources into a short queue of decisions that need human judgement, each with context and a recommendation. Use when asked to rapid-fire sources or turn them into a decision queue.
 ---
 
 # Rapid Fire

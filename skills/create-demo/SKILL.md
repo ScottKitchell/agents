@@ -1,6 +1,6 @@
 ---
 name: create-demo
-description: Plan and create internal demos of work for colleagues, teams, or company audiences. Use for show-and-tells, project demos, recorded walkthroughs, and demo slides, documents, or posts. Helps select what to show, shape the story, capture visuals, and create the collateral. Excludes sales pitches and general status updates without a demonstration.
+description: Plan and create internal demos of work for colleagues, teams, or company audiences. Use for show-and-tells, project demos, recorded walkthroughs, and demo slides, documents, or posts. Gives a focused demo story and the collateral to present it. Not for sales pitches or status updates without a demonstration.
 ---
 
 # Create Demo

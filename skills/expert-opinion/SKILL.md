@@ -1,6 +1,6 @@
 ---
 name: expert-opinion
-description: Research expert practice, choose an approach, and continue when a task requires general professional judgement. Use proactively for unresolved design, technical, product, process, or strategy trade-offs practitioners could answer better than the user, including judgement calls encountered mid-task. Ask the user only for material private context, preferences, intent, or required authority. Skip routine execution and settled choices; complement relevant specialist skills.
+description: Settle judgement calls the way experienced practitioners would, then keep working instead of handing them back to the user. Use proactively for unresolved design, technical, product, process, or strategy trade-offs, including ones met mid-task. Skip routine execution and settled choices.
 ---
 
 # Expert Opinion

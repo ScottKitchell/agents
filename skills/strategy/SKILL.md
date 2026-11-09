@@ -1,6 +1,6 @@
 ---
 name: strategy
-description: Develop, pressure-test, or refine a company, team, or individual strategy using desired and current states, alternative pathways, and conditional choices. Use for deciding how to achieve an outcome under constraints and uncertainty, including requests about roadmaps, go-to-market, prioritisation, "how do we win", OKRs, career or personal direction, and reviewing or updating an existing strategy. Routine task scheduling or executing an already chosen plan does not need this workflow.
+description: Develop, pressure-test, or refine a company, team, or individual strategy for reaching an outcome under constraints and uncertainty. Use for roadmaps, go-to-market, prioritisation, "how do we win", OKRs, career or personal direction, and reviewing an existing strategy. Not for scheduling tasks or executing an already chosen plan.
 ---
 
 # Strategy
