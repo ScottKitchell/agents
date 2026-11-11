@@ -21,7 +21,7 @@ Everything here is agent-agnostic. It should work in Claude Code, Codex, Cursor,
 | [teach-me](skills/teach-me/SKILL.md) | Teaches a topic through small, concrete units built for fast understanding. Only runs when you ask for it. |
 | [what-would-scott-do](skills/what-would-scott-do/SKILL.md) | Pressure-tests a plan, design, PR, or message with the questions I habitually ask (user goals, simplify, focus, concepts, automation, verification), checking what I've already said on the topic first. Only runs when you ask for it. |
 
-`what-would-scott-do` is manual-only. Its description says so for any agent, but a description is only a hint, so it also carries thin adapters that switch off automatic selection: `disable-model-invocation: true` in the `SKILL.md` frontmatter (Claude Code and Cursor) and `agents/openai.yaml` with `allow_implicit_invocation: false` (Codex).
+`teach-me` and `what-would-scott-do` are manual-only. Their descriptions say so for any agent, but a description is only a hint, so each also carries thin adapters that switch off automatic selection: `disable-model-invocation: true` in the `SKILL.md` frontmatter (Claude Code and Cursor) and `agents/openai.yaml` with `allow_implicit_invocation: false` (Codex).
 
 ## Other resources
 
