@@ -1,13 +1,15 @@
 ---
 name: strategy
 description: Develop, pressure-test, or refine a company, team, or individual strategy for reaching an outcome under constraints and uncertainty. Use for roadmaps, go-to-market, prioritisation, "how do we win", OKRs, career or personal direction, and reviewing an existing strategy. Not for scheduling tasks or executing an already chosen plan.
+metadata:
+  author: ScottKitchell
 ---
 
 # Strategy
 
 Develop the strategy with the user, usually over multiple turns. Work backwards from the desired outcome to discover what must become true, forwards to test whether it can, then choose where to concentrate effort. Refine at finer levels only where it improves decisions or enables delegation.
 
-The method draws on Richard Rumelt's *Good Strategy Bad Strategy* (diagnosis, guiding policy, coherent action) and adds a state-based workflow. See [foundations and worked examples](references/foundations.md) for sources, rationale, and examples.
+For a model of the finished reasoning (a team strategy with a written hand-off, and a short personal strategy), read [worked examples](references/examples.md).
 
 ## Concepts
 
@@ -111,9 +113,7 @@ For each material contingency, pair a signal with a response. Give a threshold o
 
 ## Refine and hand off
 
-Any chosen action can become a smaller strategy: its source state is the start, its intended result is the destination, and the same five steps apply. Use **rolling-wave planning**: detail what is close enough to act on and leave distant or uncertain transitions coarse. Refine only where a real choice, obstacle, or uncertainty remains, and stop once a section can be handed off. A hand-off carries the start and destination, parent rationale and constraints, evidence and critical assumptions, boundaries, a success test, and escalation signals, and leaves the recipient to choose how. Handing off means ready to delegate, not authorised to assign work or contact anyone. If a child strategy exposes an infeasible transition, revise the parent pathway.
-
-See [refinement and hand-offs](references/refine-and-delegate.md) for detail.
+Any chosen action can become a smaller strategy with the same five steps. Use **rolling-wave planning**: detail what is close enough to act on and leave distant or uncertain transitions coarse. Before refining a transition or writing a hand-off, read [refinement and hand-offs](references/refine-and-delegate.md).
 
 ## Present and maintain
 

@@ -1,6 +1,8 @@
 ---
 name: rapid-fire
 description: Turn feedback, reviews, notes, or other sources into a short queue of decisions that need human judgement, each with context and a recommendation. Use when asked to rapid-fire sources or turn them into a decision queue.
+metadata:
+  author: ScottKitchell
 ---
 
 # Rapid Fire

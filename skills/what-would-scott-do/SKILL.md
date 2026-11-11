@@ -1,6 +1,6 @@
 ---
 name: what-would-scott-do
-description: Questions whatever you're working on as Scott would, then recommends what to change. Use only when the user explicitly invokes this skill; do not select it automatically.
+description: Questions whatever you're working on as Scott would, then recommends what to change. Use only when the user explicitly invokes this skill.
 disable-model-invocation: true
 metadata:
   author: ScottKitchell

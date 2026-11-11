@@ -1,13 +1,13 @@
 ---
 name: creative-problem-solve
 description: Find fresh, non-obvious solutions to any kind of problem. Use when someone is stuck, obvious solutions keep failing, or they ask to brainstorm, "think outside the box", "think differently", or "get creative". Not for routine execution or questions with a known answer.
+metadata:
+  author: ScottKitchell
 ---
 
 # Creative Problem Solve
 
-Help the user escape the box they are thinking in. Most stuck problems are stuck because of the frame, not a lack of effort: everyone in the domain reaches for the same solutions. Other domains have often solved the same underlying structure in ways nobody here has considered.
-
-The method: understand the problem more fully than it was stated, find many parallel universes where the same structure exists, raid each one for ideas, then judge hard and hand back only what is worth acting on.
+Understand the problem more fully than it was stated, find many other domains where the same structure exists, raid each one for ideas, then judge hard and hand back only what is worth acting on.
 
 ## Concepts
 
@@ -50,7 +50,7 @@ List as many domains as you can where the core structure appears. Quantity first
 
 Early ideas anchor later ones, for models as much as people. To counter fixation, generate category by category below, coming at each category fresh from the core structure rather than from the previous analogy. When an analogy feels like a variation of an earlier one, move to a different category.
 
-Spread across **analogical distance**. Near domains (adjacent industries) are easy to transfer but rarely surprising. Very far domains break the frame but often don't survive the trip back. Research on design-by-analogy suggests the most useful ideas often come from the middle distance, so aim for a mix rather than maximum weirdness. Deliberately span:
+Spread across **analogical distance**. Near domains (adjacent industries) are easy to transfer but rarely surprising. Very far domains break the frame but often don't survive the trip back. The most useful ideas often come from the middle distance, so aim for a mix rather than maximum weirdness. Deliberately span:
 
 - **Everyday life:** cooking, parenting, gardening, queues, dating, moving house, pets, sport.
 - **Nature and science:** ecology, immune systems, evolution, ant colonies, physics, chemistry, geology, epidemiology.

@@ -1,6 +1,8 @@
 ---
 name: concept-driven-design
-description: Concept-Driven Design (CDD) for all software planning and building. Use whenever planning, designing, writing, refactoring, or reviewing code, architecture, data models, APIs, or product UI, including small changes and bug fixes. Keeps work organised around a small set of named concepts whose meaning holds, so product, code, tests, and vocabulary tell one story.
+description: Concept-Driven Design (CDD) keeps software organised around a small set of named concepts whose meaning holds, so product, code, tests, and vocabulary tell one story. Use whenever planning, designing, writing, refactoring, or reviewing code, architecture, data models, APIs, or product UI, including small changes and bug fixes.
+metadata:
+  author: ScottKitchell
 ---
 
 # Concept-Driven Design

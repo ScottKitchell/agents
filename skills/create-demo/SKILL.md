@@ -1,6 +1,8 @@
 ---
 name: create-demo
 description: Plan and create internal demos of work for colleagues, teams, or company audiences. Use for show-and-tells, project demos, recorded walkthroughs, and demo slides, documents, or posts. Gives a focused demo story and the collateral to present it. Not for sales pitches or status updates without a demonstration.
+metadata:
+  author: ScottKitchell
 ---
 
 # Create Demo
@@ -39,7 +41,7 @@ Make a compact storyboard pairing each visual/action with its spoken point and t
 
 ## Make it shorter than the slot
 
-As a practical default, target roughly 75% of the presentation time remaining after any explicit Q&A allowance. A five-minute demo should initially aim for about 3:45. This buffer is a planning heuristic, not a research finding.
+As a practical default, target roughly 75% of the presentation time remaining after any explicit Q&A allowance. A five-minute demo should initially aim for about 3:45.
 
 Include clicks, loading, transitions, audience responses, and pauses to look. Rehearse with the actual visuals, or mark timing as estimated until the presenter does. Cut a whole proof point or unnecessary setup before squeezing sentences. Repeat until it fits comfortably without rushing. For recordings, trim dead time without implying performance the work cannot deliver.
 
@@ -52,5 +54,3 @@ Create the requested collateral using the appropriate available skill or tools. 
 Use as few visible words as possible. Prefer screenshots, short clips, arrows, highlights, and brief labels. Give each visual one job. Keep narration in separate speaker notes or a voiceover script, not paragraphs on slides. For unaccompanied posts or documents, retain just enough captioning to make the evidence understandable without a presenter. Check annotations and labels are legible at the intended viewing size.
 
 Deliver the artifact with only the supporting notes, capture gaps, and timing information needed to use it. Drafting materials does not authorise posting or sending them.
-
-Research behind these defaults is in [references/demo-principles.md](references/demo-principles.md); read it only when provenance or rationale is useful.

@@ -1,6 +1,6 @@
 ---
 name: teach-me
-description: Teach or explain any topic for rapid understanding, in small, concrete units. Use only when the user explicitly invokes this skill; do not select it automatically for general questions or terse factual answers.
+description: Teach or explain any topic for rapid understanding, in small, concrete units. Use only when the user explicitly invokes this skill.
 disable-model-invocation: true
 metadata:
   author: ScottKitchell

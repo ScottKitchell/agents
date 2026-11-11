@@ -1,15 +1,6 @@
-# Foundations and worked example
+# Worked examples
 
-## What comes from where
-
-This skill combines a state-based planning model (current and desired states, pathways, conditional choices) with selected ideas from the sources below. It is a practical synthesis, not an established framework validated as a whole.
-
-- [Richard Rumelt, The perils of bad strategy (2011)](https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/the-perils-of-bad-strategy). Rumelt's own account of the diagnosis, guiding policy, and coordinated action at the centre of good strategy. It explains why goals, inventories, and task lists alone are insufficient. This article provides background from the author of *Good Strategy Bad Strategy*; it is not a substitute for consulting the full book when making book-specific claims.
-- [Deltares, Dynamic Adaptive Policy Pathways](https://www.deltares.nl/en/expertise/areas-of-expertise/sea-level-rise/dynamic-adaptive-policy-pathways). The method's developers describe alternative sequences, conditions under which an action ceases to work, and monitoring that enables adaptation. Its original climate and infrastructure context has much longer horizons than most startup decisions. Borrow the conditional choices and early signals; do not import its modelling or governance overhead by default.
-
-Backcasting names the user's backwards reasoning from a desired future. Rolling-wave planning names the progressive refinement of nearer work. Their use here, the lightweight representation, and the delegation boundary are design choices for this skill. Stakeholder analysis should inform plausible conditional responses, rather than supply an illusion of precise prediction.
-
-## Example: a small team's customer acquisition strategy
+## A small team's customer acquisition strategy
 
 All facts, thresholds, budgets, and actors below are fictional. They illustrate the reasoning, not recommended business benchmarks.
 
@@ -52,7 +43,7 @@ This is the child strategy for S0 → S1a, as a recipient would receive it.
 - **Success test:** A written agreement, or an agreed email, that names the pilot dates, scope, and measurement.
 - **Escalate if:** The partner asks for exclusivity or spend beyond the boundary, or there is no agreement by day ten, so the parent can trigger the direct-route check.
 
-## Example: an individual's strategy
+## An individual's strategy
 
 Fictional. It shows the method at the "quick exploration" depth, as a short brief, with no table or diagram.
 
