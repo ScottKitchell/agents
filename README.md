@@ -10,6 +10,7 @@ Everything here is agent-agnostic. It should work in Claude Code, Codex, Cursor,
 
 | Skill | What it does |
 | --- | --- |
+| [agent-docs](skills/agent-docs/SKILL.md) | Writes and maintains skills, `AGENTS.md`, subagents, commands, and plugins so they stay lean, focused, and work across Claude Code, Codex, and Cursor. |
 | [concept-driven-design](skills/concept-driven-design/SKILL.md) | Keeps planning, code, architecture, and product UI organised around a small set of named concepts, so product, code, tests, and vocabulary tell one story. |
 | [create-demo](skills/create-demo/SKILL.md) | Plans and creates internal demos: a focused story and the slides, docs, or posts to present it. |
 | [creative-problem-solve](skills/creative-problem-solve/SKILL.md) | Finds fresh, non-obvious solutions when you're stuck or the obvious ones keep failing. |
