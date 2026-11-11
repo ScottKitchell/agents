@@ -14,7 +14,7 @@ Everything here is agent-agnostic. It should work in Claude Code, Codex, Cursor,
 | [concept-driven-design](skills/concept-driven-design/SKILL.md) | Keeps planning, code, architecture, and product UI organised around a small set of named concepts, so product, code, tests, and vocabulary tell one story. |
 | [create-demo](skills/create-demo/SKILL.md) | Plans and creates internal demos: a focused story and the slides, docs, or posts to present it. |
 | [creative-problem-solve](skills/creative-problem-solve/SKILL.md) | Finds fresh, non-obvious solutions when you're stuck or the obvious ones keep failing. |
-| [expert-opinion](skills/expert-opinion/SKILL.md) | Settles judgement calls the way experienced practitioners would, then keeps going instead of handing them back to you. |
+| [expert-opinion](skills/expert-opinion/SKILL.md) | When the right approach is unclear, finds how experienced practitioners (in your field or others) already solve it, then decides and keeps going instead of handing the call back to you. |
 | [human-writing](skills/human-writing/SKILL.md) | Makes human-facing writing clear, concise, and natural, and strips out AI tells. |
 | [rapid-fire](skills/rapid-fire/SKILL.md) | Turns feedback, reviews, or notes into a short queue of decisions that need your judgement, each with a recommendation. |
 | [strategy](skills/strategy/SKILL.md) | Develops, pressure-tests, or refines a company, team, or individual strategy for reaching an outcome under constraints and uncertainty. |
