@@ -4,7 +4,7 @@ Applies Concept-Driven Design (CDD) to software work: find the named concepts a 
 
 ## Why it exists
 
-Agents add special cases, synonyms, and new nouns instead of asking whether an existing concept is wrong. Over many changes the implementation drifts from what things mean, and the system gets heavy to work with. This skill makes protecting **conceptual integrity** part of every change.
+Agents now write most of the detail, so people review from the high-level view and need to trust what sits beneath it. Left alone, agents add special cases, synonyms, and new nouns instead of asking whether an existing concept is wrong, and the implementation drifts from what things mean. This skill makes protecting **conceptual integrity** part of every change, so each concept does what its name says and higher-level concepts can rely on the ones beneath them.
 
 The full write-up of CDD, and draft posts about it, live in [`concept-driven-design/`](../../concept-driven-design/) at the repo root. It turns Fred Brooks's conceptual integrity into day-to-day practice, and sits alongside Domain-Driven Design as a thinner, broader cousin that also covers UI and code outline.
 

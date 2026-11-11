@@ -15,7 +15,7 @@ Design around meaning before mechanism. A system feels light when its concepts h
 - **Model**: the set of concepts and how they relate.
 - **Implementation**: the code, data, or UI that represents a concept.
 - **Outline**: what a skim reveals: names, grouping, ordering, and hierarchy. Squint at it; the main structure left should be the concept.
-- **Conceptual integrity**: every concept holds, is distinct, and fits, and the implementation and outline match the model.
+- **Conceptual integrity**: every concept holds, is distinct, fits, and ladders up, and the implementation and outline match the model.
 - **Drift**: an implementation gradually diverging from its concept's meaning.
 - **Over-conceptualised**: concepts that do not earn their place; merge them. **Under-conceptualised**: one name hiding independent meanings; split it.
 
@@ -26,8 +26,9 @@ Apply these to each concept you touch or introduce.
 1. **Holds**: Can you state it in one or two sentences that match its name, with no "except when"?
 2. **Distinct**: Could it change without its neighbour? If yes, keep them separate. No synonyms for one idea, no single name for two.
 3. **Fits**: Does it make the whole model clearer (fewer exceptions, less overlap), or only add a nicer local noun?
+4. **Ladders**: Does it keep its promise using only what its parts promise, without reaching into their details or working around them? If not, fix the part or move the boundary.
 
-Prefer the smallest set of concepts that pass all three. Integrity first, parsimony second.
+Prefer the smallest set of concepts that pass all four. Integrity first, parsimony second.
 
 ## Workflow
 

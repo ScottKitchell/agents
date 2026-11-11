@@ -8,9 +8,19 @@ Prefer the **smallest set of distinct concepts that jointly hold**. Integrity co
 
 That story is carried less by labels alone than by **concept outline**: what you see when you skim — name, structure, grouping, ordering, and hierarchy of presentation. Names are part of the outline. So are the layout of a function body, the order of members in a type, the arrangement of a file, and the presentation of a module or product surface.
 
+## Why CDD
+
+Agents now write and change most of the detail, so nobody can stay across all of it. You work from the high-level view and trust the rest. That trust has three parts:
+
+- **The details match the design.** The devil is in the details, and you're no longer reading them.
+- **The design holds together underneath.** A clean diagram can sit on top of spaghetti.
+- **Everything is intuitive to pick up.** You're across more than ever, and colleagues and users need the same from what you ship.
+
+CDD earns that trust by holding every building block, from a small component to a whole product, to the same standard: it holds, it's distinct, and it fits with the rest. What it says it does is what it does. Concepts also ladder up: a higher-level concept keeps its promise because the concepts it's built from keep theirs. That lets you review a system at the level of its concepts and rely on what sits beneath.
+
 ## Key terms
 
-- **Concept** — a named unit of meaning with a clear identity, boundary, responsibilities, relationships, and affordances.
+- **Concept** — a named unit of meaning with a clear identity, boundary, responsibilities, relationships, and affordances. "Concept" is the general term; in practice, use whatever the domain calls these units, such as functions, classes, modules, services, systems, data models, APIs, events, components, screens, flows, features, or products.
 - **Concept system** (also called the **model**) — many concepts and how they relate.
 - **Concept implementation** — the code, design, UI, or data that represents a concept.
 - **Concept outline** — the visible form that signifies a concept at a glance: name, structure, grouping, ordering, hierarchy of presentation, and related signals. Skim or squint: what main structure remains?
@@ -79,6 +89,8 @@ Concepts should **hold**: clear identity and boundary, few forced exceptions, im
 They should be **distinct**: not synonyms, not overlapping slices of the same idea, not independently evolving concerns forced into one name.
 
 They should **fit together**: the vocabulary as a whole should be graspable, and each concept should earn its place by improving the integrity of that whole.
+
+They should **ladder up**: a higher-level concept keeps its promise using only what its parts promise, without reaching into their details or working around them. If it has to, either a part doesn't hold or the boundary is in the wrong place.
 
 Before combining two concepts, ask:
 
