@@ -11,7 +11,7 @@
 - Prefer open or shared standards that work across agents.
 - Use standard formats such as `SKILL.md` when they can express the requirement.
 - Use `.agents/` for shared agent configuration instead of a vendor-specific directory such as `.codex/`, `.claude/`, or `.cursor/`.
-- Keep shared instructions in `AGENTS.md`; symlink `CLAUDE.md` to it instead of maintaining a divergent copy.
+- Keep shared instructions in `AGENTS.md`. Don't maintain a separate `CLAUDE.md`.
 - Do not add vendor-specific metadata, invocation rules, tools, or directory layouts when portable instructions are sufficient.
 
 ## Agent-Specific Configuration

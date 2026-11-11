@@ -6,11 +6,12 @@ These files load into every session, so every line is paid for on every task. Ge
 
 ## Files
 
-- `AGENTS.md` is canonical. Codex, Cursor, and most other agents read it.
-- Claude Code reads `CLAUDE.md`, not `AGENTS.md`. Symlink `CLAUDE.md` to `AGENTS.md`. If Claude needs extra lines, make `CLAUDE.md` a file that imports `@AGENTS.md` and adds only those lines.
+- `AGENTS.md` is canonical. Codex, Cursor, Claude Code (v2.1.277 and later), and most other agents read it. Don't add a project `CLAUDE.md` by default.
+- Claude Code skips `AGENTS.md` whenever a `CLAUDE.md`, `.claude/CLAUDE.md`, or `CLAUDE.local.md` exists in the working directory or above it. If Claude needs extra lines, make `CLAUDE.md` import `@AGENTS.md` and add only those lines. An existing symlink or import is harmless and never loads twice.
+- Claude Code doesn't read `AGENTS.override.md`, `AGENTS.local.md`, or anything under `.agents/`.
 - Put rules for one area in a nested `AGENTS.md` in that directory. It loads only when the agent works there.
 - Codex caps combined project instructions at 32 KiB by default and truncates silently beyond that.
-- Global instructions live in `~/.codex/AGENTS.md` and `~/.claude/CLAUDE.md`. Cursor keeps user rules in its settings.
+- Global instructions live in `~/.codex/AGENTS.md` and `~/.claude/CLAUDE.md` (Claude Code has no global `AGENTS.md`). Cursor keeps user rules in its settings.
 - Use Cursor rules (`.cursor/rules/*.mdc`) only for behaviour Cursor alone needs. Prefer a nested `AGENTS.md` or a skill with `paths` for anything shared.
 
 ## Include
@@ -40,7 +41,7 @@ These files load into every session, so every line is paid for on every task. Ge
 
 - Root file is under about 150 lines, with no contradictions or duplicated rules.
 - Every pointer says what the target holds and when to read it.
-- `CLAUDE.md` is a symlink to `AGENTS.md` or an import of it, never a divergent copy.
+- Any project `CLAUDE.md` imports or symlinks `AGENTS.md`, never a divergent copy.
 
 ## Current docs
 
