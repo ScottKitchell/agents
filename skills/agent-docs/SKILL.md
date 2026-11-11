@@ -27,7 +27,7 @@ Read the matching reference before writing. Harness formats change every few mon
 
 - Start from the agent's job: what it will be doing when it reads this, and what it gets wrong without it. If you can't name a failure a line prevents, leave the line out.
 - Include only what the agent can't infer from the code, the task, or its training: non-obvious conventions, constraints, traps, and how to verify the work.
-- Leave out generic best practice, explanations of well-known concepts, summaries of code the agent can read, rules a linter enforces, background and rationale that don't change actions, and commentary about the doc itself (how it works, why it exists, its history).
+- Leave out generic best practice, explanations of well-known concepts, summaries of code the agent can read, rules a linter enforces, background and rationale that don't change actions, and commentary about the doc itself (how it works, why it exists, its history). For a skill, that commentary goes in its `README.md`.
 - Write imperative instructions. Say what to do; reserve "don't" for real traps. Long lists of prohibitions make agents timid.
 - Use precise terms the model already knows instead of defining them.
 - State what done looks like and how to check it, and require evidence before claiming success.

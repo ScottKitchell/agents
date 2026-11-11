@@ -12,13 +12,14 @@ skill-name/
 ├── references/         # Docs loaded only when SKILL.md points to them
 ├── scripts/            # Code for deterministic or fragile steps
 ├── assets/             # Templates and data the output uses
-└── agents/openai.yaml  # Codex adapter, only when needed
+├── agents/openai.yaml  # Codex adapter, only when needed
+└── README.md           # For maintainers; never loaded by the agent
 ```
 
 - Keep `SKILL.md` well under 500 lines. Most good skills are under 100.
 - Move content that only one branch of the task needs into `references/`, one level deep, with a pointer that says when to read it.
 - Add a script only when the step must be exact or repeatable. Reference it by path relative to the skill root.
-- Put nothing else in the folder: no README, changelog, or install notes. Those belong in the repository that hosts the skill.
+- Put everything about the skill, as opposed to instructions for the agent, in `README.md`: what the skill is, the problem it solves, and how to iterate on it (scripts, evals, how to test a change). Keep it short. `SKILL.md` never points to it, and nothing the agent needs lives only there. Use no other meta files (no `SPEC.md`, changelog, or sources file); fold them into the README.
 - Install locations differ by harness (Codex and Cursor read `.agents/skills/`; Claude Code reads `.claude/skills/`). Follow the host repo's install convention rather than copying folders by hand.
 
 ## Frontmatter
