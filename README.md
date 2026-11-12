@@ -29,7 +29,7 @@ Each skill's `README.md` explains why it exists, the research behind it, and how
 
 - [AGENTS.global.md](AGENTS.global.md): my global agent instructions, covering guiding principles, shared language, pushback, and writing style.
 - [concept-driven-design/](concept-driven-design/): the longer write-up of Concept-Driven Design, plus draft blog posts about it.
-- [subagents/search-engine/](subagents/search-engine/): a search subagent with setup for Cursor, Claude Code, and Codex.
+- [subagents/search-engine/](subagents/search-engine/): a factual search subagent returning source-grounded answers, ranked evidence, and explicit gaps, with adaptive search depth and setup for Cursor, Claude Code, and Codex.
 - [AGENTS.md](AGENTS.md): rules for agents working in this repo. `CLAUDE.md` is a symlink to it.
 
 ## Installing
