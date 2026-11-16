@@ -1,6 +1,6 @@
 # next-fucking-level
 
-A heavyweight, collaborative process for writing or speech that has to move a reader: they feel seen, understood, and cared for, and they experience the message instead of being told it. It researches the reader and subject in depth, agrees a brief and creative direction with the user, then drafts and edits against those decisions. The user controls meaning, voice, direction, and when the piece is final; the agent handles routine editorial work.
+A heavyweight, collaborative process for writing or speech that has to move a reader, listener, or viewer: they feel deeply seen, understood, wanted, cared for, and excited by a possibility that matters to them. It combines research with empathic inference to get beneath practical needs to emotional stakes, agrees a brief and creative direction with the user, then drafts and edits for emotional resonance. The user controls meaning, voice, direction, and when the piece is final; the agent handles routine editorial work.
 
 It is manual-only. It commits to deep research and creative exploration, so it should never fire on an ordinary message. The adapters are `disable-model-invocation: true` in the frontmatter (Claude Code, Cursor) and `agents/openai.yaml` (Codex).
 
@@ -33,13 +33,15 @@ It sits beside `human-writing`, which makes routine communication clear and effi
 
 **Editing.** George Saunders [rereads the whole piece as a first-time reader](https://advicetowriters.com/advice/wheres-the-needle) each pass. Robert Gottlieb describes editing as [candid service to the author](https://www.npr.org/2023/01/03/1146641641/robert-gottlieb-caro-power-broker-turn-every-page-lizzie-gottlieb): both sides opinionated, the author's book. Hence the user's final say on meaning, voice, and direction, with routine edits handled by the agent.
 
-These are design precedents, not evidence that the skill improves agent output. Storytelling frameworks are optional techniques chosen for the brief. Research ends when there is enough evidence to support the insight and distinguish creative directions; inferred motives remain hypotheses.
+These are design precedents, not evidence that the skill improves agent output. Storytelling frameworks are optional techniques chosen for the emotional movement in the brief. Research ends when the agent can explain the reader's emotional stakes, offer a grounded emotional insight, and distinguish creative directions. Empathic inference is central: known circumstances support hypotheses about inner experience, which research and user feedback refine. Explicitly stated feelings are not the limit of discovery, and inferred motives remain hypotheses.
 
 ## Iterating
 
 Compare the previous and revised skill on the same briefs in fresh sessions. Include a short piece, a speech, and an existing draft needing revision. Judge quality alongside user effort: useful questions and decisions, repeated approvals, and unnecessary restarts.
 
 - Check that research distinguishes sourced observations, user context, and hypotheses; quotes and factual claims remain traceable. Thin evidence should lead to an explicit gap, not invented emotional depth or a generalisation from one anecdote.
+- Supply practical facts without explicit feelings. Check that the agent explores plausible emotional stakes and tests its interpretation rather than stopping at the literal facts. Compare the resulting insight with a superficial one such as "they want to feel better".
+- Check that the brief names an emotional shift and that directions differ in how they could evoke it. Trace intended feelings of recognition, understanding, being wanted, care, and excitement to specific passages. Emotional flatness should trigger revision; generic praise, hype, and declarations of care do not count as resonance. Use reader feedback where possible rather than treating the agent's judgement as proof.
 - Check that the agent gets agreement on the brief and a genuinely distinct creative direction, recommends choices, and handles routine edits itself. Ten cosmetic variations do not count as creative breadth.
 - Try a factual or action-oriented piece. Necessary information, numbers, and explicit next steps should survive without a forced story or emotional arc.
 - Give feedback that changes one line, then feedback that changes the audience. Only the latter should reopen the reader brief. Check that settled decisions persist across turns.
