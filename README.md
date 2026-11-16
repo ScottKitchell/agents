@@ -14,9 +14,9 @@ Everything here is agent-agnostic. It should work in Claude Code, Codex, Cursor,
 | [concept-driven-design](skills/concept-driven-design/SKILL.md) | Keeps planning, code, architecture, and product UI organised around a small set of named concepts, so product, code, tests, and vocabulary tell one story. |
 | [create-demo](skills/create-demo/SKILL.md) | Plans and creates internal demos: a focused story and the slides, docs, or posts to present it. |
 | [creative-problem-solve](skills/creative-problem-solve/SKILL.md) | Finds fresh, non-obvious solutions when you're stuck or the obvious ones keep failing. |
-| [engaging](skills/engaging/SKILL.md) | Crafts writing or speech that moves the reader: they feel seen and cared for, and experience the message instead of being told it. Plans an arc, shows rather than tells, and edits until every sentence earns its place. |
 | [expert-opinion](skills/expert-opinion/SKILL.md) | When the right approach is unclear, finds how experienced practitioners (in your field or others) already solve it, then decides and keeps going instead of handing the call back to you. |
 | [human-writing](skills/human-writing/SKILL.md) | Makes writing purposeful, clear, and natural, with focused guidance for messages, documents, overviews, review comments, and product copy. |
+| [next-fucking-level](skills/next-fucking-level/SKILL.md) | Takes a piece of writing or speech to the extreme: researches the reader and subject in depth, questions you, explores past the obvious, and edits with you in ruthless rounds until the reader feels seen and experiences the message. Only runs when you ask for it. |
 | [rapid-fire](skills/rapid-fire/SKILL.md) | Turns feedback, reviews, or notes into a short queue of decisions that need your judgement, each with a recommendation. |
 | [strategy](skills/strategy/SKILL.md) | Develops, pressure-tests, or refines a company, team, or individual strategy for reaching an outcome under constraints and uncertainty. |
 | [teach-me](skills/teach-me/SKILL.md) | Teaches a topic through small, concrete units built for fast understanding. Only runs when you ask for it. |
@@ -24,7 +24,7 @@ Everything here is agent-agnostic. It should work in Claude Code, Codex, Cursor,
 
 Each skill's `README.md` explains why it exists, the research behind it, and how to test changes. Agents never load it.
 
-`teach-me` and `what-would-scott-do` are manual-only. Their descriptions say so for any agent, but a description is only a hint, so each also carries thin adapters that switch off automatic selection: `disable-model-invocation: true` in the `SKILL.md` frontmatter (Claude Code and Cursor) and `agents/openai.yaml` with `allow_implicit_invocation: false` (Codex).
+`next-fucking-level`, `teach-me`, and `what-would-scott-do` are manual-only. Their descriptions say so for any agent, but a description is only a hint, so each also carries thin adapters that switch off automatic selection: `disable-model-invocation: true` in the `SKILL.md` frontmatter (Claude Code and Cursor) and `agents/openai.yaml` with `allow_implicit_invocation: false` (Codex).
 
 ## Other resources
 
