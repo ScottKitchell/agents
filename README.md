@@ -14,6 +14,7 @@ Everything here is agent-agnostic. It should work in Claude Code, Codex, Cursor,
 | [concept-driven-design](skills/concept-driven-design/SKILL.md) | Keeps planning, code, architecture, and product UI organised around a small set of named concepts, so product, code, tests, and vocabulary tell one story. |
 | [create-demo](skills/create-demo/SKILL.md) | Plans and creates internal demos: a focused story and the slides, docs, or posts to present it. |
 | [creative-problem-solve](skills/creative-problem-solve/SKILL.md) | Finds fresh, non-obvious solutions when you're stuck or the obvious ones keep failing. |
+| [engaging](skills/engaging/SKILL.md) | Crafts writing or speech that moves the reader: they feel seen and cared for, and experience the message instead of being told it. Plans an arc, shows rather than tells, and edits until every sentence earns its place. |
 | [expert-opinion](skills/expert-opinion/SKILL.md) | When the right approach is unclear, finds how experienced practitioners (in your field or others) already solve it, then decides and keeps going instead of handing the call back to you. |
 | [human-writing](skills/human-writing/SKILL.md) | Makes writing purposeful, clear, and natural, with focused guidance for messages, documents, overviews, review comments, and product copy. |
 | [rapid-fire](skills/rapid-fire/SKILL.md) | Turns feedback, reviews, or notes into a short queue of decisions that need your judgement, each with a recommendation. |
