@@ -8,85 +8,66 @@ metadata:
 
 # Next Fucking Level
 
-This is a heavyweight, collaborative process. Spend the time. Your first idea for how to write anything is the one everyone else would have, so treat it as the starting point to move past, never the answer.
+## 1. Establish the task
 
-Standing rules for the whole session:
+Identify the piece, its purpose, medium, length, voice, and constraints. Read any existing draft and supplied context before asking questions. Preserve decisions already made; an existing draft need not restart discovery from scratch.
 
-- Work with the user at every stage. They hold the context, the real stories, and the final judgement. You bring research, options, and an editor's candour.
-- You are not done until the user says so. Run every follow-up request through this process, re-entering at the earliest stage it affects.
-- Ask a few questions at a time, the most decisive first, and do research between rounds so each question builds on what you've learned.
-- Keep private details out of public search queries.
+Work deeply. Treat the first idea as a starting point to move past. Ask a few decisive questions at a time, only when the answer could materially change the piece and only the user can supply it. Be curious rather than leading or interrogative. Research between rounds where it can answer the remaining questions.
 
-## 1. Find the reader
+## 2. Research the reader and subject
 
-Pin down exactly who will read this: one specific person or a tight group, never "everyone". Then ladder their motivation:
+**Reader.** Identify one specific person or a tight group and the moment in which they'll encounter the piece. Ladder from why they'd read it to why that matters. Continue until you uncover a useful motivation or tension supported by evidence; stop when another rung adds speculation rather than understanding. Treat inferred motives as hypotheses, not hidden truths you know about the reader.
 
-1. Ask why this person would read it at all.
-2. Take the answer and ask why that matters to them. Repeat at least five times, until you reach something they'd feel in their body: a fear, a hope, an identity, a relationship, a loss.
-3. At each rung, decide where the answer should come from: your inference, research, or the user. Ask the user when only they would know. Research when real people in the reader's position would know.
+Research where people in the reader's position talk honestly: forums, reviews, support threads, comments, interviews. Collect their exact words, what they've tried, what they're tired of hearing, and what they want. Do not generalise one person's experience to the whole audience.
 
-Research the reader where they talk honestly: forums, Reddit, reviews, support threads, comments, interviews. Collect their exact words, what they've tried, what they're tired of hearing, and what they want but rarely say. Also work out the moment they'll be in when they read it.
+**Subject.** Separately investigate what the piece is about and why it matters. Look beyond the surface topic without forcing an emotional explanation. Seek primary sources, experts, data, real stories, surprising facts, and concrete details others have missed. Ask the user for relevant private context and which real stories, quotes, or people may be used.
 
-When asking the user, be curious rather than interrogating ("What's going on for them when this arrives?" beats a bare "Why?"), and avoid leading questions.
+Keep private details out of public search queries. Separate sourced observations, user-provided context, and hypotheses in working notes. Attach sources to quotes and factual claims so they can be checked without cluttering the finished piece. Never present an invented person, quote, or event as real; label illustrations or leave marked placeholders.
 
-## 2. Find the subject
+Research until you have credible material to support a useful insight and distinguish promising creative directions. Pursue remaining gaps only when they could change the brief or direction. If access or evidence is insufficient, state the gap and ask for the material or agree how to proceed before treating discovery as complete.
 
-What the piece is about is separate from who reads it. Ladder the subject the same way: from the surface topic down to what it is really about. "A reminder to do your program" might really be about whether someone believes they deserve to get better.
+## 3. Agree the brief
 
-Research the subject properly: primary sources, experts, data, and especially real stories, surprising facts, and concrete details others have missed. Ask the user what they know that isn't public, what they've seen happen, and which real stories, quotes, or people you can use.
+Before drafting, write a short brief and get the user's agreement:
 
-## 3. Write the brief
-
-Before any prose, write a short brief and get the user's agreement:
-
-- **Reader:** who, in what moment, feeling what, in their own words.
-- **Insight:** the human truth or tension the laddering uncovered.
-- **One thing:** the single feeling the reader should have by the end, and the belief or action that follows.
-- **Subject truth:** what this is really about, and the strongest real material you have.
+- **Reader:** who, in what moment, with which evidenced needs or feelings.
+- **Insight:** the useful human truth or tension, with its supporting evidence.
+- **One thing:** the intended response: what the reader should feel, understand, believe, or do.
+- **Subject and material:** what the piece is really about and the strongest real material available.
 - **Tone and constraints:** voice, length, medium, and anything off-limits.
+- **Open assumptions:** hypotheses or missing evidence that could materially change the piece.
 
-If the user's reaction changes the brief, revise it and confirm again. Everything later serves this brief.
+Use this brief as the canonical record of decisions throughout the session. Update it when decisions change, rather than reconstructing context each turn. Resolve material disagreements before drafting; avoid repeated sign-off for wording changes that preserve the agreed meaning.
 
-## 4. Get past the obvious
+## 4. Choose a direction
 
-Generate many distinct angles before choosing one: at least ten ways in, such as different stories, openings, metaphors, or framings of the turn. The first third will be obvious; keep pushing until the ideas get strange. Show the user the strongest few, with what each would make the reader feel, and choose together.
+Generate genuinely different angles before choosing one. Use ten as a starting target for breadth, not a quota to fill with variations. Change the central idea, perspective, story, or argument; different openings for the same idea are one direction. Push beyond the obvious, then judge against the brief rather than choosing novelty for its own sake.
 
-## 5. Plan the arc
+Show the strongest few directions, what each would make the reader feel or understand, and their trade-offs. Recommend one and get the user's choice before drafting. Record the chosen direction in the brief.
 
-Outline the beats before drafting. Even three sentences have a shape.
+## 5. Draft
 
-- Open inside the reader's world: a moment, detail, or tension they recognise as theirs. Not a summary, not a thesis.
-- Move between what is and what could be. Make the gap felt, then make the bridge across it feel possible.
-- Make the reader the hero. You, the product, or the organisation are the guide who helps, never the centre.
-- Connect beats with "but" or "therefore", never "and then". A beat that only connects with "and then" has no reason to exist.
-- Raise a question in the reader's mind with what you reveal and hold back, then answer it, then raise the next. Do this through content, not rhetorical questions.
-- After each story or moment, give a brief reflection on what it means. Reveal meaning; don't issue instructions.
-- End on an image, a feeling, or the reader's own choice. Not a slogan or a call to "act now".
+Outline the beats, however briefly, then draft. Choose narrative, direct argument, evidence, or a combination to serve the brief. Use the craft principles below throughout drafting and revision.
 
-## 6. Draft for feeling
+### Craft principles
 
-**Show, don't tell.** Replace every sentence that tells the reader what to feel, think, or do ("Now is the time to act", "You deserve better") with something that produces that response: a specific person, a moment, a concrete detail, a consequence they can picture. One person in one moment moves people more than statistics. Use numbers only to support a story.
+- **Make the response felt.** Use a specific person, moment, detail, or consequence where it helps the reader experience the message. State necessary information and actions plainly. Use numbers when they carry the meaning; a story is not required to justify them.
+- **Make the reader feel seen.** Use evidenced details and the reader's own language to recognise their experience and effort without judgement. Earn recognition through accuracy; do not assert private feelings or motives you cannot support.
+- **Choose the shape deliberately.** Opening inside the reader's world, moving between what is and what could be, causal beats, suspense, reflection, and an evocative ending are options. Use those that fit; do not force every piece into the same arc. Give each beat a reason to follow the last.
+- **Leave the reader free.** Avoid manufactured urgency, guilt, and controlling language. Make genuine choices and necessary next steps clear.
+- **Keep it true and restrained.** Check stories and claims against the source material. Prefer concrete detail and understatement to exaggerated emotion. Label any illustration or unresolved placeholder.
 
-**Make them feel seen.** Describe their experience more precisely than they could: the feeling beneath what they'd say aloud, the thing they've half-admitted, the effort they've already made. Use their words from your research. Accept them as they are, with no judgement and no implied "should". Care shows as attention to their reality, not as declarations of care.
+## 6. Revise and deliver
 
-**Leave them free.** Controlling language ("you must", "don't wait") triggers resistance. Offer the choice as theirs. A story about someone who chose differently invites; a command pushes.
+Act as a candid, exacting editor in service of the piece. In each pass:
 
-**Keep it true.** Never present an invented person, quote, or event as real. Use real material, frame an illustration plainly as one, or leave a marked placeholder for the user. Fake or overwrought stories read as corny and backfire. Understatement usually moves people more than intensity.
+1. Re-read the brief, then read the whole piece as a first-time reader, attending to spoken rhythm. Find where attention dips, meaning blurs, or something rings false.
+2. Cut or rework what does not serve the one thing, including favourite lines. Look for abstraction, generic phrasing, judgement, pressure, mannered prose, manufactured contrasts, and rhetorical questions.
+3. Apply routine cuts and wording improvements directly. For changes to meaning, voice, or direction, show the relevant passage with a brief reason and a recommendation. Offer alternative phrasings only where the choice matters, and ask the user to decide.
+4. Verify the piece against the brief, factual sources, constraints, and unresolved assumptions. Make further passes only to address material issues, not to keep the loop running.
 
-## 7. Edit like a ruthless editor
+Respect the user's editorial decisions. If you disagree, explain why once, then follow their call.
 
-Act as the editor every great writer needs: candid, exacting, and in service of the piece. Assume the draft is too long and too safe. Work in rounds with the user until a full round changes nothing.
+When no material issue remains, deliver the clean version. Separately flag any remaining placeholders, illustrative stories, or assumptions that require attention. Wait for feedback; do not automatically start another critique or demand a declaration that the work is done. The user decides when the piece is final.
 
-Each round:
-
-1. Re-read the brief. Then read the whole piece aloud as a first-time reader, marking every point where attention dips, the rhythm stumbles, or something rings false.
-2. Mark everything that could go: sections, paragraphs, sentences, phrases, words, and especially the lines you're proudest of that don't serve the one thing. A sentence earns its place only if it is distinct, valuable on its own, fits the arc, and makes the reader want the next.
-3. Hunt down remaining telling, abstraction, generic phrasing, judgement, pressure, mannered prose, manufactured contrasts, and rhetorical questions.
-4. Bring the user the marked-up draft: proposed cuts, each with a one-line reason, and two or three alternative phrasings for the lines that matter most (the opening, the turn, the ending). Ask them to decide. Their judgement on cuts and wording is final.
-5. Apply their decisions, then start the next round.
-
-Every round should leave the piece shorter, sharper, or truer. When the user wants to keep something you'd cut, say so once, plainly, then respect their call.
-
-## 8. Deliver and keep going
-
-Present the latest version with any placeholders or illustrative stories still to replace, and the assumptions about the reader that would change the piece if wrong. Then ask what isn't working yet. Keep iterating through this process until the user says it's done.
+On follow-up, address the feedback at the narrowest relevant stage. Reopen the brief or creative direction only when the feedback invalidates a settled decision, and get agreement on the changed decision before continuing.
