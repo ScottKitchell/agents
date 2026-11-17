@@ -15,16 +15,16 @@ Everything here is agent-agnostic. It should work in Claude Code, Codex, Cursor,
 | [create-demo](skills/create-demo/SKILL.md) | Plans and creates internal demos: a focused story and the slides, docs, or posts to present it. |
 | [creative-problem-solve](skills/creative-problem-solve/SKILL.md) | Finds fresh, non-obvious solutions when you're stuck or the obvious ones keep failing. |
 | [expert-opinion](skills/expert-opinion/SKILL.md) | When the right approach is unclear, finds how experienced practitioners (in your field or others) already solve it, then decides and keeps going instead of handing the call back to you. |
+| [fast-track](skills/fast-track/SKILL.md) | Builds useful understanding quickly, from the big picture and foundations to application and consequential complexity, with connected examples and checkpoints. Only runs when you ask for it. |
 | [human-writing](skills/human-writing/SKILL.md) | Makes writing purposeful, clear, and natural, with focused guidance for messages, documents, overviews, review comments, and product copy. |
 | [next-fucking-level](skills/next-fucking-level/SKILL.md) | Uses deep research, empathy, and exacting editing to make a reader, listener, or viewer feel seen, understood, wanted, cared for, and excited. Agrees the brief and creative direction with you. Only runs when you ask for it. |
 | [rapid-fire](skills/rapid-fire/SKILL.md) | Turns feedback, reviews, or notes into a short queue of decisions that need your judgement, each with a recommendation. |
 | [strategy](skills/strategy/SKILL.md) | Develops, pressure-tests, or refines a company, team, or individual strategy for reaching an outcome under constraints and uncertainty. |
-| [teach-me](skills/teach-me/SKILL.md) | Teaches a topic through small, concrete units built for fast understanding. Only runs when you ask for it. |
 | [what-would-scott-do](skills/what-would-scott-do/SKILL.md) | Pressure-tests a plan, design, PR, or message with the questions I habitually ask (user goals, simplify, focus, concepts, automation, verification), checking what I've already said on the topic first. Only runs when you ask for it. |
 
 Each skill's `README.md` explains why it exists, the research behind it, and how to test changes. Agents never load it.
 
-`next-fucking-level`, `teach-me`, and `what-would-scott-do` are manual-only. Their descriptions say so for any agent, but a description is only a hint, so each also carries thin adapters that switch off automatic selection: `disable-model-invocation: true` in the `SKILL.md` frontmatter (Claude Code and Cursor) and `agents/openai.yaml` with `allow_implicit_invocation: false` (Codex).
+`fast-track`, `next-fucking-level`, and `what-would-scott-do` are manual-only. Their descriptions say so for any agent, but a description is only a hint, so each also carries thin adapters that switch off automatic selection: `disable-model-invocation: true` in the `SKILL.md` frontmatter (Claude Code and Cursor) and `agents/openai.yaml` with `allow_implicit_invocation: false` (Codex).
 
 ## Other resources
 
