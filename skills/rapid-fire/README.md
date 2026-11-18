@@ -11,9 +11,12 @@ Design choices:
 - **Filter hard.** Anything with a clear fix, a policy answer, or a resolution already in the source stays out of the queue.
 - **Stable IDs**, so the user can answer out of order or in bundles.
 - **Overview, then one decision at a time**, with an all-at-once view on request. One-at-a-time keeps discussion attached to each decision. Practitioner advice favours batching similar routine choices to cut switching cost; the overview groups related titles for that reason. No controlled evidence favours either, so this is a preference to revisit from real use.
+- **The user's head is a source.** Doubts they state, constraints revealed in their answers, and one closing "anything not covered?" can all add decisions. This borrows the elicitation strength of Matt Pocock's `grill-me` without its exhaustive interview.
+- **Approvable recommendations.** Modelled on the **completed staff work** doctrine: each recommendation should be specific enough to approve as written.
 - **Inspection and discussion only.** Agreeing a direction doesn't authorise posting replies, changing code, or merging.
 
 ## Iterating
 
 - Test on a real PR with a mix of trivial and genuine review comments. Check the trivial ones are filtered out and each queued card stands on its own without opening the source.
+- Mention a doubt that no source raises (for example, "I'm unsure the approach is right") and check that it reaches the queue.
 - Check that a source with no real decisions gets "nothing needs you" rather than a manufactured question.
