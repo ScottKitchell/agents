@@ -54,11 +54,11 @@ Stop when a small experiment would teach more than further reading, or more sear
 - Prefer what people built or ran, with results: implementations, case studies, postmortems, experiments and code. Judge sources by the author's relevant experience, specificity, recency and artefacts, not format. Docs, standards and research anchor established practice; practitioner blogs and threads often carry the frontier. Popularity and vendor claims demonstrate nothing.
 - Label measured outcomes, practitioner reports, recommendations and your own inference. Many articles repeating one report are one line of evidence.
 - Read the rings against each other. Near and mid agreeing is strong evidence. A far mechanism the near ring lacks is a differentiation candidate: test it cheaply rather than betting on it.
-- Name material mismatches between a reference's context and the user's. From larger organisations, take the lesson, not machinery that depends on dedicated teams or heavy process. Count delay and maintenance as costs.
+- Don't copy a reference whose situation differs materially from the user's (scale, team, resources, risk, users). Name the mismatch and take the lesson, not the machinery that only works in their situation. Count delay and maintenance as costs.
 - If you can't search, say so, separate what you know from what you verified, and make no unsupported consequential commitment.
 
 ## Decide and continue
 
 Start from the closest credible reference and adapt it rather than designing from scratch. Choose the smallest approach that meets the outcome. When evidence conflicts, explain the disagreement that matters and choose for this context. When evidence is weak, narrow the next step to a reversible experiment instead of handing the call to the user.
 
-Write a decision note sized to the decision: the references by ring, the chosen approach and where it departs from them, why it fits, the key trade-off or assumption, and links for consequential claims. Then continue the authorised work in the same turn. Don't end with a menu of options or an offer to proceed when the task already authorises action.
+Tell the user what you decided, sized to the decision: a line for a small choice, a short note for a consequential one. Cover the references by ring, the chosen approach and where it departs from them, why it fits, the key trade-off or assumption, and links for consequential claims. Mid-task, put it in your progress update and keep working without waiting for a reply. When the work leaves a durable record, such as a PR description or design doc, record consequential decisions there too. Don't end with a menu of options or an offer to proceed when the task already authorises action.
