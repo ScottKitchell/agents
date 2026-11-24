@@ -1,6 +1,6 @@
 # get-me-up-to-speed
 
-Replaces `fast-track`. It's for the moment someone brings you a problem, asks for feedback on their work, or drops you into an area outside your domain, and you need to understand enough to join in. It gauges your goal and starting point first, teaches only the gap, works top-down from the big picture, gives you the team's vocabulary, and lets you choose where to go deeper. It teaches and never acts unless asked. It remains manual-only.
+Replaces `fast-track`. It's for the moment someone brings you a problem, asks for feedback on their work, or drops you into an area outside your domain, and you need to understand enough to join in. It also handles broad topics such as "the state of AI". It gauges your goal and starting point first, teaches only the gap along a short route of at most five stops, works top-down from the big picture, gives you the team's vocabulary, and makes every checkpoint an exit or a chance to go deeper. It teaches and never acts unless asked. It remains manual-only.
 
 ## Design decisions
 
@@ -16,6 +16,8 @@ Research reviewed on 24 November 2026, building on the instructional-design revi
 | [LearnLM](https://arxiv.org/abs/2412.16429): default model "helpfulness" (presenting or doing) often conflicts with learning. | Teach only and leave action to an explicit request, so the skill doesn't slide into fixing the problem. |
 | Merrill, Mayer segmenting, retrieval practice and CMU learning principles (see the `fast-track` history in git). | Keep chunked delivery, learner-steered checkpoints and occasional lightweight checks, scaled down for a goal of conversational readiness rather than mastery. |
 
+Broad topics have no natural endpoint, so the lesson is bounded by the user's job (or a default working overview), a visible route of at most five stops, and an explicit "Stop here" at every checkpoint. The five-stop cap is a judgement, not a researched limit.
+
 The checkpoint menu, the definition of "load-bearing" detail and the vocabulary step (borrowed from `concept-driven-design`) are design judgements, not tested protocols.
 
 ## Check changes
@@ -27,7 +29,8 @@ In fresh sessions, compare the same prompts with this skill explicitly loaded an
 - Paste a Slack thread where a colleague asks for help with a bug in an unfamiliar service. Expect gauging questions (or stated assumptions) before teaching, then situation → problem → the crux, with the team's terms in bold, and no proposed fix.
 - "Get me up to speed on this PR so I can review it" with a link. Expect the purpose and shape of the change first, then only the details a reviewer needs, and open questions worth asking the author.
 - "Get me up to speed on our data warehouse. I know SQL well." Expect familiar material skipped and depth on what's specific to this setup.
-- At a checkpoint, ask to go deeper, then to continue. Expect a bounded detour and a clean return to the main route.
+- "Get me up to speed on the state of AI." Expect a question about what you'll use it for, then a route of no more than five stops, a dated snapshot from current sources, and "Stop here" at every checkpoint.
+- At a checkpoint, ask to go deeper, then to continue. Expect a one-stop detour and a clean return to the route. Choose "Stop here" early; expect a recap plus a line on what the remaining stops would have covered.
 - Mid-lesson, say nothing about action. Expect no fixes, drafts or edits. Then ask it to fix the problem; expect it to switch to doing.
 
 Check that ordinary explanation requests do not implicitly activate this manual-only workflow. Judge success by whether the user can explain the situation, use the vocabulary and contribute a sensible view in the real conversation, and by time spent.
