@@ -15,7 +15,7 @@ Everything here is agent-agnostic. It should work in Claude Code, Codex, Cursor,
 | [create-demo](skills/create-demo/SKILL.md) | Plans and creates internal demos: a focused story and the slides, docs, or posts to present it. |
 | [creative-problem-solve](skills/creative-problem-solve/SKILL.md) | Finds fresh, non-obvious solutions when you're stuck or the obvious ones keep failing. |
 | [expert-opinion](skills/expert-opinion/SKILL.md) | When the right approach is unclear, finds how experienced practitioners (in your field or others) already solve it, then decides and keeps going instead of handing the call back to you. |
-| [fast-track](skills/fast-track/SKILL.md) | Builds useful understanding quickly, from the big picture and foundations to application and consequential complexity, with connected examples and checkpoints. Only runs when you ask for it. |
+| [get-me-up-to-speed](skills/get-me-up-to-speed/SKILL.md) | Gets you up to speed on an unfamiliar topic, problem, or someone's work: gauges what you need and already know, teaches only the gap top-down with the right vocabulary, and lets you choose where to go deeper. Teaches without acting unless you ask. Only runs when you ask for it. |
 | [human-writing](skills/human-writing/SKILL.md) | Makes writing purposeful, clear, and natural, with focused guidance for messages, documents, overviews, review comments, and product copy. |
 | [next-fucking-level](skills/next-fucking-level/SKILL.md) | Uses deep research, empathy, and exacting editing to make a reader, listener, or viewer feel seen, understood, wanted, cared for, and excited. Agrees the brief and creative direction with you. Only runs when you ask for it. |
 | [rapid-fire](skills/rapid-fire/SKILL.md) | Turns feedback, reviews, or notes into a short queue of decisions that need your judgement, each with a recommendation. |
@@ -24,7 +24,7 @@ Everything here is agent-agnostic. It should work in Claude Code, Codex, Cursor,
 
 Each skill's `README.md` explains why it exists, the research behind it, and how to test changes. Agents never load it.
 
-`fast-track`, `next-fucking-level`, and `what-would-scott-do` are manual-only. Their descriptions say so for any agent, but a description is only a hint, so each also carries thin adapters that switch off automatic selection: `disable-model-invocation: true` in the `SKILL.md` frontmatter (Claude Code and Cursor) and `agents/openai.yaml` with `allow_implicit_invocation: false` (Codex).
+`get-me-up-to-speed`, `next-fucking-level`, and `what-would-scott-do` are manual-only. Their descriptions say so for any agent, but a description is only a hint, so each also carries thin adapters that switch off automatic selection: `disable-model-invocation: true` in the `SKILL.md` frontmatter (Claude Code and Cursor) and `agents/openai.yaml` with `allow_implicit_invocation: false` (Codex).
 
 ## Other resources
 

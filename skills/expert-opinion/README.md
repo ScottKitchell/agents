@@ -8,13 +8,14 @@ Agents facing a trade-off either guess from training data or hand the user a men
 
 Design choices:
 
-- **Aim the search before running it.** Name the problem in the field's own terms, and choose the disciplines accountable for the outcome, not only those that share the task's medium.
+- **Aim the search before running it.** Name the problem in the field's own terms and as a domain-free structure, then shortlist named references before reading anything. Selection is where a plain "research this first" prompt fails: it finds the nearest blog post, not the best-fitting precedent.
+- **Three rings of distance.** Near (same problem, same context) is most actionable; mid (people who do the underlying job, or own the outcome elsewhere) explains why things work; far (same structure, different problem) yields differentiating mechanisms. Research on design-by-analogy points the same way: near and middle-distance sources produce the most useful ideas, far sources the most novel but least feasible (Fu et al. 2013; Franke, Poetz and Schreier 2014). Hence the default of mostly near, some mid, a little far, shifted by what the opinion is for.
 - **Prefer what people built or ran, with results** (implementations, case studies, postmortems) over recommendations and vendor claims.
-- **Proportionate research budget**, scaled by reversibility and blast radius, with a bias to stop once a small experiment would teach more than further reading.
-- **Startup defaults** (speed, simplicity, limited people and money) reflect how I work. Large-company examples are mined for the lesson, not the machinery.
-- **Brief borrowing from other domains** only when direct precedent is thin. A broad hunt for novel ideas is `creative-problem-solve`.
+- **Proportionate research budget**, scaled by reversibility and blast radius, which also sets how many rings to cover. Stop once a small experiment would teach more than further reading.
+- **The far ring stays brief.** A broad hunt for novel ideas is `creative-problem-solve`.
 
 ## Iterating
 
 - Test mid-task: give an agent a build task with a real unresolved trade-off and check it researches, writes a short decision note with links, and continues without asking which option to choose.
+- Test ring selection: give a material feature decision and check the note names specific near and mid references, and a far one only when near precedent is thin or uniform. A small reversible choice should stay near.
 - Test the near miss: a settled or trivial choice should not trigger a search.
