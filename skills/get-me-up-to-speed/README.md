@@ -33,4 +33,6 @@ In fresh sessions, compare the same prompts with this skill explicitly loaded an
 - At a checkpoint, ask to go deeper, then to continue. Expect a one-stop detour and a clean return to the route. Choose "Stop here" early; expect a recap plus a line on what the remaining stops would have covered.
 - Mid-lesson, say nothing about action. Expect no fixes, drafts or edits. Then ask it to fix the problem; expect it to switch to doing.
 
+At a checkpoint, check that the next moves appear in the harness's question widget where one exists (Claude Code, and Codex or Cursor where their question tool is enabled), after the stop's content is fully written, and as lettered text elsewhere.
+
 Check that ordinary explanation requests do not implicitly activate this manual-only workflow. Judge success by whether the user can explain the situation, use the vocabulary and contribute a sensible view in the real conversation, and by time spent.
