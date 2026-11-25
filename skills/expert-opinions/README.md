@@ -1,4 +1,4 @@
-# expert-opinion
+# expert-opinions
 
 When the right approach is unclear, finds how experienced practitioners (in this field or others) already solve the problem, picks the best-supported approach, and keeps working. It loads automatically, including mid-task.
 

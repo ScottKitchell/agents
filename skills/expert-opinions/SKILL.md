@@ -1,5 +1,5 @@
 ---
-name: expert-opinion
+name: expert-opinions
 description: Finds how experienced practitioners, in this field and others, already solve a problem, then picks an approach and keeps working. Use proactively when the right approach is unclear or a design, technical, product, process, or strategy trade-off is unresolved, including mid-task. Not for settled choices or open-ended brainstorming.
 metadata:
   author: ScottKitchell

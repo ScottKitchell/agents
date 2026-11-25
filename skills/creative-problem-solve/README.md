@@ -14,7 +14,7 @@ Design choices:
 - **Prefer shared relationships over surface features**, and extract the transferable mechanism rather than the observation.
 - **Look for convergence**: a mechanism several unrelated domains arrived at independently is probably robust.
 
-`expert-opinion` borrows from other domains briefly to settle a decision; this skill is for a broad hunt for new ideas.
+`expert-opinions` borrows from other domains briefly to settle a decision; this skill is for a broad hunt for new ideas.
 
 ## Iterating
 
