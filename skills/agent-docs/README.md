@@ -12,6 +12,7 @@ Design choices, from research in November 2026:
 - Keep instruction files short and limited to what the agent can't infer. Generated or bloated `AGENTS.md` files lowered task success and raised cost in 2026 studies ([summary](https://codex.danielvaughan.com/2026/07/27/do-auto-generated-agents-md-files-actually-help-codex-cli/)).
 - Require verification steps, ask-the-human points, and gotchas placed where they apply. Their absence was the most common skill smell in a [survey of 238 SKILL.md files](https://codex.danielvaughan.com/2026/07/13/configuration-smells-agents-md-skill-md-codex-cli-detection-remediation-lint-leakage-context-bloat/).
 - Manual-only skills need three adapters, because Codex ignores `disable-model-invocation`.
+- Invocation follows whose call it is to run the skill, not whether it has side effects. Anthropic recommends manual-only for side-effecting skills. OpenAI's skill-creator keeps them discoverable and confirms before the change, because a hidden skill gets improvised around. This takes the middle ground.
 
 ## Iterating
 

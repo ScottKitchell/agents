@@ -31,7 +31,7 @@ Read the matching reference before writing. Harness formats change every few mon
 - Write imperative instructions. Say what to do; reserve "don't" for real traps. Long lists of prohibitions make agents timid.
 - Use precise terms the model already knows instead of defining them.
 - State what done looks like and how to check it, and require evidence before claiming success.
-- Say when to stop and ask the user, and what to ask. Otherwise agents guess.
+- Say when to stop and ask the user, and what to ask. Otherwise agents guess. For workflows that retry or change external state, also say when to stop trying; approval for the task doesn't widen its scope or permissions.
 - Put each gotcha at the step where it applies, not in a closing list.
 - Keep one source of truth. Point to a file instead of copying it, and don't repeat a rule another loaded doc already states.
 - Every pointer to another file says what it holds and when to read it.
@@ -51,4 +51,4 @@ Read the whole doc and anything that points to it first. Keep what works, fix th
 
 1. Run the format checks in the reference for the doc type.
 2. Read the doc as its reader would: a fresh agent with no conversation context, seeing only the description or pointer first. Confirm it would know when to load the doc and what to do next.
-3. For docs that matter, run a real task in a fresh session with and without the doc, and run prompts that should and shouldn't trigger it. Keep the doc only where it changes the outcome.
+3. For docs that matter, run a real task in a fresh session with and without the doc, and run prompts that should and shouldn't trigger it. Give that session a realistic request and the doc, never the expected answer, the suspected bug, or your conclusions, and keep its output out of the working tree. Judge the outcome, not whether its wording matches yours. Keep the doc only where it changes the outcome.

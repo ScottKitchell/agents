@@ -48,9 +48,13 @@ Add other fields only when they change behaviour:
 
 ## Invocation
 
-Decide whether the agent may load the skill on its own or only the user may invoke it. If the right choice isn't clear from the request, ask.
+Decide whose call it is to run the skill. Keep an existing skill's choice unless the user asks to change it.
 
-Make it manual-only when the skill has side effects, is expensive, imposes a persona or opinionated workflow the user wants to control, or would misfire on loosely related tasks. Leave it automatic when it is guidance the agent should apply whenever the situation arises.
+- Make it manual-only when running it is the user's decision: deploying, releasing, committing, sending, or anything else whose timing only the user can judge. Do the same for opinionated workflows or personas the user wants to control, and for skills used so rarely that their always-loaded description isn't worth the context.
+- Leave it automatic when the agent would need it mid-task, even if it changes something. Put a confirmation in the body at the step that makes the change.
+- If it would misfire on loosely related tasks, sharpen the description first ("Use when", "Not for"). Make it manual-only only if that fails.
+
+If the choice isn't obvious, ask the user and give them the trade-off. Manual-only stops the agent running the skill unprompted and removes its description from every session's context. In exchange, the agent can't find the skill when the user asks for the work in plain words, and it will improvise without it.
 
 A manual-only skill needs all three of these, because each harness honours a different one:
 
@@ -83,7 +87,7 @@ Strong: `Turns PR review comments into a ranked list of changes to make. Use whe
 The body loads only after the skill triggers, so it starts with the work.
 
 - Skip introductions, "Overview", "When to use this skill", and any statement about what the skill is. The description already did that.
-- Give imperative steps with explicit inputs and outputs. Include a plan step for complex work, a verification step, and the point where the agent should ask the user.
+- Prescribe as much as the task needs. Give ordered steps when there's a known best sequence, order matters, or results must be consistent across runs, and use a script where a step must be exact. Where the right approach depends on the situation, state the outcome and the criteria for choosing instead. Either way, include a verification step and the point where the agent should ask the user.
 - Write instructions meant to persist across later turns as standing rules, since the body isn't re-read each turn.
 - Write for the class of task, not the run that inspired the skill: strip one-off file names, repos, and examples that won't generalise.
 
